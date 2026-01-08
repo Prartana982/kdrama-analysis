@@ -23,5 +23,10 @@ The data used in this project is sourced from **MyDramaList**, specifically focu
 ## 🛠️ Setup & Usage
 
 1. **Clone the repository:**
-   ```bash
+   bash
    git clone https://github.com/Prartana982/kdrama-analysis.git
+
+2.**Run the python script: **
+   bash
+   python3 main.py
+
