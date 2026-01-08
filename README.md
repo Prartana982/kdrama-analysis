@@ -1,5 +1,27 @@
-# K-Drama Data Analysis & Insights
+# K-Drama Data Analysis & Insights 🇰🇷📊
 
-This project performs an exploratory data analysis on a dataset of the top 250 Korean Dramas to uncover industry trends and viewer preferences. 
-Using Python and the Pandas library, the analysis handles complex, multi-genre data entries to determine the most frequently produced genres. 
-The final output includes a data-driven visualization highlighting the Top 10 genres that dominate the high-rated K-Drama landscape.
+An exploratory data analysis (EDA) project using Python to uncover trends within the highest-rated Korean Dramas. This project focuses on cleaning messy categorical data and visualizing genre popularity to understand what themes dominate the "Top 250" list.
+
+## 📁 Project Overview
+This project takes a raw dataset of the top 250 K-Dramas and transforms it into actionable insights. The main challenge involved handling "nested" strings where multiple genres were stored in a single cell, requiring data "explosion" techniques to ensure accurate statistical counting.
+
+### Key Tasks Accomplished:
+* **Virtual Environment Setup:** Isolated project dependencies using `venv`.
+* **Data Cleaning:** Stripped whitespace and handled inconsistent string formatting in the Genre column.
+* **Data Transformation:** Utilized the Pandas `.explode()` method to flatten multi-genre dramas into individual rows.
+* **Visualization:** Generated a bar chart using Matplotlib to visualize the Top 10 genres by frequency.
+
+## 📊 The Dataset
+The data used in this project is sourced from **MyDramaList**, specifically focusing on the "Top 250" ranked Korean Dramas as voted by the user community.
+
+* **Origin:** MyDramaList (Community-driven database)
+* **Size:** 250 Rows (Top 250 Dramas)
+* **Key Features:** Title, Rating, Year of Release, Original Network, Genre, Episode Count, and Cast.
+
+
+
+## 🛠️ Setup & Usage
+
+1. **Clone the repository:**
+   ```bash
+   git clone [YOUR_GITHUB_REPO_URL]
