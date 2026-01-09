@@ -10,6 +10,7 @@ This project takes a raw dataset of the top 250 K-Dramas and transforms it into 
 * **Data Cleaning:** Stripped whitespace and handled inconsistent string formatting in the Genre column.
 * **Data Transformation:** Utilized the Pandas `.explode()` method to flatten multi-genre dramas into individual rows.
 * **Visualization:** Generated a bar chart using Matplotlib to visualize the Top 10 genres by frequency.
+* **Recommendation System** Filtered and displayed top 3 items based on user input of genre and rating.
 
 ## 📊 The Dataset
 The data used in this project is sourced from **MyDramaList**, specifically focusing on the "Top 250" ranked Korean Dramas as voted by the user community.
