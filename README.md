@@ -11,6 +11,7 @@ This project takes a raw dataset of the top 250 K-Dramas and transforms it into 
 * **Data Transformation:** Utilized the Pandas `.explode()` method to flatten multi-genre dramas into individual rows as well as to flatten the dramas with multiple cast members and directors.
 * **Visualization:** Generated a bar chart using Matplotlib to visualize the Top 10 genres by frequency. Generated a pie chart using Matplotlib to visualize the Top 5 popular networks based on distribution of the 250 dramas.
 * **Recommendation System** Filtered and displayed top 3 items based on user input of genre and rating. Also filtered and displayed top 3 items based on user input of cast and director.
+* **Binge-Calculator** Implemented a binge calculator using re to calculate the total number of days required to complete a drama based on user preference
 
 ## 📊 The Dataset
 The data used in this project is sourced from **MyDramaList**, specifically focusing on the "Top 250" ranked Korean Dramas as voted by the user community.
