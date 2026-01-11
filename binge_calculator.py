@@ -45,4 +45,3 @@ def binge_planner():
     else:
         console.print("[red]Drama not found. Try checking the spelling![/]")
 
-binge_planner()
