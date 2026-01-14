@@ -1,0 +1,37 @@
+.App { font-family: 'Arial', sans-serif; background-color: #f4f7f6; min-height: 100vh; }
+.header { background: #2c3e50; color: white; padding: 2rem; text-align: center; }
+.search-box { margin-top: 1rem; display: flex; justify-content: center; gap: 10px; }
+.results-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 40px; }
+.drama-card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.rating { color: #f1c40f; font-weight: bold; }
+.navbar { display: flex; justify-content: center; gap: 20px; background: #1a252f; padding: 15px; }
+.navbar button { background: none; border: 1px solid white; color: white; padding: 8px 15px; cursor: pointer; border-radius: 5px; }
+.navbar button:hover { background: white; color: #1a252f; }
+.binge-container { max-width: 500px; margin: 40px auto; text-align: center; }
+.binge-form { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+.binge-card { background: white; padding: 30px; border-radius: 15px; border-left: 5px solid #2ecc71; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+.search-dropdown {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-right: none;
+  background: white;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-box input {
+  border-radius: 0;
+}
+
+.search-box button {
+  border-radius: 0 5px 5px 0;
+}
+
+.rating {
+  font-weight: bold;
+  color: #f1c40f;
+}
+
+.genres {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
